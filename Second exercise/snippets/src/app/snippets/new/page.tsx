@@ -24,6 +24,7 @@ export default function SnippetCreatePage() {
         redirect('/');
     }
 
+
     return <form action={createSnippet}> {/* the action will call the createSnippt function */}
         <h3 className="font-bold m-3">Create a Snippet</h3>
         <div className="flex flex-col gap-4">
